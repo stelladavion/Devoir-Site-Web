@@ -1,0 +1,153 @@
+body
+	{
+	margin: 0;
+	background-color: white;
+	text-shadow: rgba(0,0,0,0.7) 1px 1px 2px;
+	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+	min-width: 945px;
+	}
+.logo
+{
+	width:400px;
+	height:260px;
+}
+header
+{
+	border: 5px #FF8000 solid;
+	height: 300px;
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-right: 10px;
+	display: flex;
+}
+.headertitle
+{
+	
+	margin-left: 150px;
+	margin-top: 220px;
+	font-size: 65px;
+	font-family: American Typewriter, serif;
+	color: blue;
+}
+section
+{
+	border: 5px #FF8000 solid;
+	margin-top: 20px;
+	margin-left: 10px;
+	width: 170px;
+	height: 561px;
+}
+
+.sectiontitle
+{
+	color: blue;
+	font-size: 1.65em;
+	margin-left: 13px;
+	font-style: italic;
+}
+
+li
+{
+	padding: 25px 25px 5px 5px;
+	font-size: 1.15em;
+}
+
+.main
+{
+	display: flex;
+}
+
+.menu
+{
+	display: inline-block;
+	border: 5px #FF8000 solid;
+	margin-top: 20px;
+	height: 561px;
+	margin-left: 25px;
+	margin-right: 10px;
+	width: 100%;
+}
+ 
+ /* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 27px;
+    width: 100%;
+    text-align: left;
+    text-indent: 60px;
+    border: none;
+ 	transition: 0.4s;
+ 	font-size: 1.3em;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover 
+{
+    background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+} 
+
+.promoborder
+{
+	border: 5px #FF8000 solid;
+	margin-top: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+h2
+{
+	margin-left: 40px;
+}
+.promos
+{
+	
+	display: flex;
+
+}
+
+.txtpromo
+{
+	border: 5px blue solid;
+	text-align: center;
+	font-size: 1.2em;
+	width: 100%;
+	
+}
+
+.vente
+{
+	display: inline-block;
+	margin-left: 6.5%;
+	margin-right: 6.5%;
+	text-align: center;
+}
+
+.imgpromo
+{
+	width: 400px;
+	height: 400px;
+}
+
+.barre
+{
+	text-decoration: line-through;
+}
+
+footer
+{
+	display: flex;
+	margin-left: 45%;
+	margin-top: 25px;
+}
+
+
