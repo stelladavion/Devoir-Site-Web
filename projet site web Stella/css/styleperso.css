@@ -33,7 +33,8 @@ h2
 
 .name
 {
-	font-size: 1em;
+	font-size: 1.5em;
+	font-weight:bold;
 	margin-top: 5px;
 }
 
@@ -77,17 +78,4 @@ h4
 .bouton1
 {
 	margin-top: 60px;
-}
-
-.bouton2
-{
-	margin-top: 1%;
-}
-.bouton3
-{
-	margin-top: 1%;
-}
-.bouton4
-{
-	margin-top: 1%;
 }
