@@ -1,0 +1,98 @@
+body
+	{
+	margin: 0;
+	background-color: white;
+	text-shadow: rgba(0,0,0,0.7) 1px 1px 2px;
+	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+	min-width: 945px;
+	}
+.logo
+{
+	width:400px;
+	height:260px;
+}
+header
+{
+	border: 5px #FF8000 solid;
+	height: 300px;
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-right: 10px;
+	display: flex;
+}
+.headertitle
+{
+	
+	margin-left: 150px;
+	margin-top: 220px;
+	font-size: 65px;
+	font-family: American Typewriter, serif;
+	color: blue;
+}
+section
+{
+	border: 5px #FF8000 solid;
+	margin-top: 20px;
+	margin-left: 10px;
+	width: 170px;
+	height: 561px;
+}
+
+.sectiontitle
+{
+	color: blue;
+	font-size: 1.65em;
+	margin-left: 13px;
+	font-style: italic;
+}
+
+.main
+{
+	display: flex;
+	
+}
+
+.menu
+{
+	margin-left: 20px;
+}
+.imgpromo
+{
+	float: left;
+	width: 10%;
+	height: 10%;
+}
+
+.vente
+{
+	border: 1px #000000 solid;
+	width: 100% 
+	
+}
+
+h3
+{
+	font-weight: 600;
+	font-style: bold;
+
+}
+
+.text
+{
+	font-style: italic;
+	width: 35%;
+	margin-left: 12px;
+
+}
+
+.aligndroite
+{
+	position: absolute;
+	top: 400px;
+	right: 0px;
+	border: 1px #000000 solid;
+
+}
+
+
+
